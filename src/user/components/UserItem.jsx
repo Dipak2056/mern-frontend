@@ -10,7 +10,7 @@ export const UserItem = (props) => {
     <div>
       <li className="user-item">
         <Card>
-          <Link to={`/${props.id}/ places`}>
+          <Link to={`/${props.id}/places`}>
             <div className="user-item__image">
               <Avatar image={props.image} alt={props.name} />
             </div>
